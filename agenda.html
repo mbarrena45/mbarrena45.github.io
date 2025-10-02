@@ -5,7 +5,7 @@
     <title>Feria de Viajes</title>
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
-<body>
+<body onload="personalizarAgenda()">
 <div class="contenedor">
 <!-- INICIO DE LA BARRA DE NAVEGACIÓN -->
 <nav>
@@ -21,7 +21,7 @@
 
 <!-- INICIO DE LA CABECERA -->
 <header>
-    <h1>Agenda de Eventos</h1>
+    <h1 id="titulo-agenda">Agenda de Eventos</h1>
 </header>
 <!-- FIN DE LA CABECERA -->
 
@@ -50,5 +50,6 @@
 </footer>
 <!-- FIN DEL PIE DE PÁGINA -->
 </div>
+<script src="funciones/funciones.js"></script>
 </body>
 </html>

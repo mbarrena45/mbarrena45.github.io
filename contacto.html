@@ -30,10 +30,10 @@
     <h2>Envíanos tus dudas</h2>
     <p>Rellena el siguiente formulario para mandarnos un mensaje.</p>
 
-    <form action="mbarrena@birt.eus" method="post">
+    <form action="mbarrena@birt.eus" method="post" onsubmit="return validarFormulario()">
         <p>
             <label>Tu nombre:</label><br>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" id="nombre">
         </p>
         <p>
             <label>Tu email:</label><br>
@@ -62,5 +62,6 @@
 </footer>
 <!-- FIN DEL PIE DE PÁGINA -->
 </div>
+<script src="funciones/funciones.js"></script>
 </body>
 </html>

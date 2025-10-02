@@ -5,7 +5,7 @@
     <title>Feria de Viajes</title>
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
-<body>
+<body onload="mostrarFecha()">
  <div class="contenedor">
  <!-- INICIO DE LA BARRA DE NAVEGACIÓN -->
 <nav>
@@ -28,6 +28,7 @@
 <!-- INICIO DEL CONTENIDO PRINCIPAL -->
 <main>
     <h2>Explora el Mundo con Nosotros</h2>
+	<p>Consulta realizada en: <span id="fecha-hora"></span></p>
     <p>Descubre los lugares increíbles que nuestros expertos han seleccionado para esta feria:</p>
     <ul>
         <li>Tokio, Japón</li>
@@ -50,5 +51,6 @@
 </footer>
 <!-- FIN DEL PIE DE PÁGINA -->
 </div>
+<script src="funciones/funciones.js"></script>
 </body>
 </html>
